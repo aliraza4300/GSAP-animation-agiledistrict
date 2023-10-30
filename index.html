@@ -1,1 +1,908 @@
-Ali
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Project Title</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Your content goes here -->
+    <div class="main-container">
+      <!-- info bar -->
+      <div class="info-bar">
+        <div
+          class="container d-flex justify-content-between align-items-center p-2"
+        >
+          <p class="inner-heading">Welcome to Agile District.</p>
+          <div
+            class="d-flex align-items-center gap-3 breadcrumb"
+            style="
+              --bs-breadcrumb-divider: '|';
+              --bs-breadcrumb-divider-color: '#ffffff';
+            "
+            aria-label="breadcrumb"
+          >
+            <p class="breadcrumb-item inner-text">+1 (518) 677-6679</p>
+            <p class="breadcrumb-item inner-text">Get Quote Now</p>
+            <div class="breadcrumb-item d-flex gap-2">
+              <img src="assets/images/facebook.svg" alt="" class="w-6 h-6" />
+              <img src="assets/images/instagram.svg" alt="" class="w-6 h-6" />
+              <img src="assets/images/youtube.svg" alt="" class="w-6 h-6" />
+              <img src="assets/images/xbox.svg" alt="" class="w-6 h-6" />
+              <img src="assets/images/linkedin.svg" alt="" class="w-6 h-6" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- navbar -->
+
+      <div
+        class="hero-section img-fluid"
+        style="
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0.5),
+              rgba(0, 0, 0, 0.5)
+            ),
+            url(assets/images/hero-bg.png);
+        "
+      >
+        <nav
+          class="navbar navbar-expand-lg navbar-light"
+          style="padding: 30px 0px 20px 0px"
+        >
+          <div
+            class="w-100 container flex-grow-0 d-flex justify-content-between"
+          >
+            <img src="assets/images/agile-logo.svg" alt="" class="w-6 h-6" />
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav d-flex gap-3 fw-bolder">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Services
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Insight</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Careers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div
+          class="d-flex flex-column align-items-center h-100 gap-5 justify-content-center"
+        >
+          <p class="hero-inner-text text-center fw-bold text-white">
+            Driving <br />
+            Digital Transformation
+          </p>
+          <button class="hero-inner-btn text-white fw-bolder">
+            Discuss Your Project
+          </button>
+        </div>
+      </div>
+
+      <!-- technology section -->
+
+      <div
+        class="container section-padding-top technology_section d-flex flex-column align-items-center gap-5"
+      >
+        <p class="text-center fw-bolder section_common_heading">
+          Technology Index
+        </p>
+        <div class="d-flex gap-5 align-items-center">
+          <img src="assets/images/rails.png" alt="" class="w-6 h-6" />
+          <img src="assets/images/postgre-sql.png" alt="" class="w-6 h-6" />
+          <img src="assets/images/elastic.png" alt="" class="w-6 h-6" />
+          <img src="assets/images/angular.png" alt="" class="w-6 h-6" />
+          <img src="assets/images/heroku.png" alt="" class="w-6 h-6" />
+        </div>
+      </div>
+
+      <!-- services section -->
+      <div
+        class="container section-padding-top services_section d-flex flex-column align-items-center gap-5"
+      >
+        <p class="text-center fw-bolder section_common_heading">Services</p>
+        <div class="d-flex gap-5 align-items-center">
+          <div>
+            <img src="assets/images/technology.png" alt="" />
+          </div>
+          <img src="assets/images/engineering.png" alt="" class="w-6 h-6" />
+          <img src="assets/images/consultancy.png" alt="" class="w-6 h-6" />
+          <img src="assets/images/operations.png" alt="" class="w-6 h-6" />
+        </div>
+      </div>
+
+      <!-- expertise section -->
+      <div
+        class="container section-padding-top services_section d-flex flex-column align-items-center gap-5"
+      >
+        <p class="text-center fw-bolder section_common_heading">Expertise</p>
+        <div class="d-flex gap-4 align-items-center">
+          <div class="d-flex flex-column align-items-center gap-4">
+            <img src="assets/images/iot_hardware.png" alt="" class="w-6 h-6" />
+            <div class="d-flex flex-column gap-2">
+              <p class="expertise_heading text-center">
+                Internet of Things (IOT)
+              </p>
+              <p class="expertise_description text-center">
+                Our cross-functional experts help organizations harness the
+                right IoT technology stack to build data-rich software solutions
+              </p>
+              <div
+                class="d-flex gap-2 align-items-center justify-content-center"
+              >
+                <p class="expertise_read_more">Read More</p>
+                <img
+                  src="assets/icons/Arrow_Left_LG.svg"
+                  alt=""
+                  class="w-6 h-6"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex flex-column align-items-center gap-4">
+            <img src="assets/images/devops.png" alt="" class="w-6 h-6" />
+            <div class="d-flex flex-column gap-2">
+              <p class="expertise_heading text-center">DevOps</p>
+              <p class="expertise_description text-center">
+                Align the speed of your software development with your pace of
+                doing business and boost your organization performance
+              </p>
+              <div
+                class="d-flex gap-2 align-items-center justify-content-center"
+              >
+                <p class="expertise_read_more">Read More</p>
+                <img
+                  src="assets/icons/Arrow_Left_LG.svg"
+                  alt=""
+                  class="w-6 h-6"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex flex-column align-items-center gap-4">
+            <img
+              src="assets/images/cloud-computing.png"
+              alt=""
+              class="w-6 h-6"
+            />
+            <div class="d-flex flex-column gap-2">
+              <p class="expertise_heading text-center">Cloud</p>
+              <p class="expertise_description text-center">
+                We leverage our experience working with all major cloud
+                providers to help organizations accelerate their transformation.
+              </p>
+              <div
+                class="d-flex gap-2 align-items-center justify-content-center"
+              >
+                <p class="expertise_read_more">Read More</p>
+                <img
+                  src="assets/icons/Arrow_Left_LG.svg"
+                  alt=""
+                  class="w-6 h-6"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex flex-column align-items-center gap-4">
+            <img src="assets/images/ux-ui-design.png" alt="" class="w-6 h-6" />
+            <div class="d-flex flex-column gap-2">
+              <p class="expertise_heading text-center">UI/UX Design</p>
+              <p class="expertise_description text-center">
+                We offer full range of UI/UX services to build efficient
+                customer retention strategies that help brands create genuine
+                identities
+              </p>
+              <div
+                class="d-flex gap-2 align-items-center justify-content-center"
+              >
+                <p class="expertise_read_more">Read More</p>
+                <img
+                  src="assets/icons/Arrow_Left_LG.svg"
+                  alt=""
+                  class="w-6 h-6"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- about section -->
+      <div class="container about_section section-padding-top d-flex">
+        <div class="d-flex">
+          <div class="left-section">
+            <img src="assets/images/aboutimg.svg" alt="" class="w-6 h-100" />
+            <img
+              src="assets/images/about-absolute-img.png"
+              alt=""
+              class="about-graph-img"
+            />
+          </div>
+          <div class="right-section d-flex flex-column align-items-start gap-5">
+            <p class="text-center fw-bolder section_common_heading">About US</p>
+            <p class="about_heading">
+              Let your business thrive under our supervision
+            </p>
+            <p class="about_paragrgaph">
+              Agile District is a leading software house that specializes in
+              providing customized solutions for businesses seeking to drive
+              digital transformation. With its innovative approach and focus on
+              engineering excellence, Agile District is helping companies to
+              achieve their digital transformation goals in a way that is both
+              efficient and effective
+            </p>
+
+            <div class="d-flex flex-column gap-2">
+              <div class="d-flex gap-3 align-items-center">
+                <img
+                  src="assets/icons/Tick Square.png"
+                  alt=""
+                  class="tick-square"
+                />
+                <p class="text-center fw-bolder about_paragrgaph">
+                  Super useful and easy to use interface
+                </p>
+              </div>
+              <div class="d-flex gap-3 align-items-center">
+                <img
+                  src="assets/icons/Tick Square.png"
+                  alt=""
+                  class="tick-square"
+                />
+                <p class="text-center fw-bolder about_paragrgaph">
+                  Easiest way to grow your business in days
+                </p>
+              </div>
+            </div>
+            <button class="about-btn text-white fw-bolder">Learn More</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- portfolio section -->
+      <div
+        class="container portfolio_section section-padding-top d-flex flex-column"
+      >
+        <div class="d-flex row">
+          <div class="col-sm-6 d-flex flex-column align-items-start gap-4">
+            <p class="text-center fw-bolder section_common_heading">
+              Our Portfolio
+            </p>
+            <p class="fw-bolder portfolio_heading">
+              More than 200 Megawats successfully <br />
+              installed
+            </p>
+            <button class="about-btn text-white fw-bolder">
+              Schedule Consultation
+            </button>
+          </div>
+          <p class="col-sm-6 pt-5 aboutParagrgaph2">
+            Agile District is a leading software house that specializes in
+            providing customized solutions for businesses seeking to drive
+            digital transformation. With its innovative approach and focus on
+            engineering excellence. <br /><br />
+            Agile District is helping companies to achieve their digital
+            transformation goals in a way that is both efficient and effective.
+          </p>
+        </div>
+
+        <div class="section-padding-top d-flex justify-content-between">
+          <div class="custom-border-left-1 d-flex flex-column gap-4">
+            <img
+              src="assets/images/scorebreak.png"
+              alt=""
+              class="w-6 h-6 sImg"
+            />
+            <div class="d-flex gap-2 align-items-center justify-content-start">
+              <p class="expertise_read_more">Read More</p>
+              <img
+                src="assets/icons/Arrow_Left_LG.svg"
+                alt=""
+                class="w-6 h-6"
+              />
+            </div>
+          </div>
+
+          <div class="custom-border-left d-flex flex-column gap-4">
+            <img src="assets/images/fauree.png" alt="" class="w-6 h-6 fImg" />
+            <div class="d-flex gap-2 align-items-center justify-content-start">
+              <p class="expertise_read_more">Read More</p>
+              <img
+                src="assets/icons/Arrow_Left_LG.svg"
+                alt=""
+                class="w-6 h-6"
+              />
+            </div>
+          </div>
+          <div class="custom-border-left d-flex flex-column gap-4">
+            <img src="assets/images/mentor.png" alt="" class="w-6 h-6 mImg" />
+            <div class="d-flex gap-2 align-items-center justify-content-start">
+              <p class="expertise_read_more">Read More</p>
+              <img
+                src="assets/icons/Arrow_Left_LG.svg"
+                alt=""
+                class="w-6 h-6"
+              />
+            </div>
+          </div>
+          <div class="custom-border-left d-flex flex-column gap-4">
+            <img src="assets/images/velocity.png" alt="" class="w-6 h-6 vImg" />
+            <div class="d-flex gap-2 align-items-center justify-content-start">
+              <p class="expertise_read_more">Read More</p>
+              <img
+                src="assets/icons/Arrow_Left_LG.svg"
+                alt=""
+                class="w-6 h-6"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- portfolio gallery section -->
+      <div class="portfolio_gallery_section section-padding-top">
+        <div class="row">
+          <div class="col-sm-6">
+            <img
+              src="assets/images/portfolioimg1.png"
+              alt=""
+              class="w-100 h-100 transImg"
+            />
+          </div>
+          <div class="col-sm-6 d-flex">
+            <div class="col-sm-6">
+              <div class="common-img-container common-img-container1 greenImg">
+                <img
+                  src="assets/images/portfolioimg2.svg"
+                  alt=""
+                  class="w-100 h-6"
+                />
+              </div>
+              <div class="common-img-container common-img-container2 nashImg">
+                <img
+                  src="assets/images/portfolioimg3.svg"
+                  alt=""
+                  class="w-100 h-6"
+                />
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="common-img-container common-img-container3 orangImg">
+                <img
+                  src="assets/images/portfolioimg4.svg"
+                  alt=""
+                  class="w-100 h-6"
+                />
+              </div>
+              <div class="common-img-container common-img-container4  grayImg">
+                <img
+                  src="assets/images/portfolioimg5.svg"
+                  alt=""
+                  class="w-100 h-6"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- accountant note section -->
+      <div
+        class="accountant_note_section d-flex flex-column gap-5 align-items-center"
+      >
+        <img
+          src="assets/images/quotationImg.svg"
+          alt=""
+          class="note_quotation_img"
+        />
+        <p class="text-center note-para-container">
+          Agile District is a leading software house that specializes in
+          providing customized solutions for businesses seeking to drive digital
+          transformation. With its innovative approach and focus on engineering
+          excellence, Agile District is helping companies to achieve their
+          digital transformation goals in a way that is both efficient and
+          effective
+        </p>
+        <div class="d-flex flex-column align-items-center gap-1">
+          <p class="fw-bold">Jennefer Lee</p>
+          <p class="">Accountant</p>
+          <div class="d-flex align-items-center gap-2 pt-4">
+            <img src="assets/images/testimonial1.svg" alt="" class="w-2 h-2 circuleImg" />
+            <img src="assets/images/testimonial2.svg" alt="" class="circuleImg" />
+            <img src="assets/images/testimonial3.svg" alt="" class="circuleImg" />
+          </div>
+        </div>
+      </div>
+
+      <!-- news and article section -->
+      <div
+        class="news_article_section container section-padding-top d-flex flex-column gap-3 align-items-center"
+      >
+        <p class="fw-bolder section_common_heading">Insights</p>
+        <p class="fw-bold news_heading">News And Articles</p>
+        <div class="row w-100 gap-3" style="padding: 30px 0px 30px 0px">
+          <div
+            class="col news_card_container d-flex flex-column gap-1"
+            style="box-shadow: 0px 4px 110px 0px #1664602b"
+          >
+            <img src="assets/images/news1.png" alt="" class="w-6 h-6" />
+            <div class="d-flex flex-column gap-2 p-3 content-container">
+              <p
+                class="bg-light rounded max-w-100 mx-auto"
+                style="padding: 8px 18px 8px 18px; font-size: 12px"
+              >
+                News
+              </p>
+              <p class="news_card_heading text-center">
+                Impact of Chat GPT on the Telecom Industry
+              </p>
+              <p class="news_card_description text-center">
+                The telecommunications industry is one that is constantly
+                evolving and adapting to new technologies.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col news_card_container d-flex flex-column gap-1"
+            style="box-shadow: 0px 4px 110px 0px #1664602b"
+          >
+            <img src="assets/images/news2.png" alt="" class="w-6 h-6" />
+            <div class="d-flex flex-column gap-2 p-3 content-container">
+              <p
+                class="bg-light rounded max-w-100 mx-auto"
+                style="padding: 8px 18px 8px 18px; font-size: 12px"
+              >
+                Article
+              </p>
+              <p class="news_card_heading text-center">
+                An Insight into New opportunities in e-Mobility
+              </p>
+              <p class="news_card_description text-center">
+                Cloud computing has become an integral part of the eCommerce
+                world, allowing businesses to quickly and easily scale their...
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col news_card_container d-flex flex-column gap-1"
+            style="box-shadow: 0px 4px 110px 0px #1664602b"
+          >
+            <img src="assets/images/news3.png" alt="" class="w-6 h-6" />
+            <div class="d-flex flex-column gap-2 p-3">
+              <p
+                class="bg-light rounded max-w-100 mx-auto"
+                style="padding: 8px 18px 8px 18px; font-size: 12px"
+              >
+                Article
+              </p>
+              <p class="news_card_heading text-center">
+                Latest Trends in Shipping Decarbonization
+              </p>
+              <p class="news_card_description text-center">
+                Are you fed up with the frustrating process of searching for a
+                parking slot in a crowded area? Well, if so...
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col news_card_container d-flex flex-column gap-1"
+            style="box-shadow: 0px 4px 110px 0px #1664602b"
+          >
+            <img src="assets/images/news4.png" alt="" class="w-6 h-6" />
+            <div class="d-flex flex-column gap-2 p-3">
+              <p
+                class="bg-light rounded max-w-100 mx-auto"
+                style="padding: 8px 18px 8px 18px; font-size: 12px"
+              >
+                News
+              </p>
+              <p class="news_card_heading text-center">
+                Tips to Use Drones for Insurance Inspections
+              </p>
+              <p class="news_card_description text-center">
+                Insurance companies have been using drones for inspections for a
+                few years now. The use of drones can be very beneficial for
+                insurance...
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="about-btn text-white fw-bolder">View All</button>
+      </div>
+
+      <!-- request quote section -->
+      <div class="request_quote_section container d-flex">
+        <div class="row w-100 d-flex">
+          <div
+            class="col d-flex flex-column justify-content-between align-items-start"
+          >
+            <div class="d-flex flex-column gap-3" style="padding-right: 30px">
+              <p class="fw-bolder section_common_heading">Insights</p>
+              <p class="fw-bolder inner_heading text-uppercase">
+                Embrace innovation with advance technologies
+              </p>
+              <p class="">
+                Agile District is a leading software house that specializes in
+                providing customized solutions for businesses seeking to drive
+                digital transformation. With its innovative approach and focus
+                on engineering excellence, Agile District is helping companies
+                to achieve their digital transformation goals in a way that is
+                both efficient and effective
+              </p>
+            </div>
+
+            <div class="d-flex flex-column gap-2">
+              <p class="fw-bold address-heading">US Headquarters</p>
+              <p class="address-info d-flex gap-3" style="padding-top: 10px">
+                <img src="assets/icons/phone-icon.svg" alt="" class="w-6 h-6" />
+                +1 (518) 677-6679
+              </p>
+              <p class="address-info d-flex gap-3">
+                <img
+                  src="assets/icons/location-icon.svg"
+                  alt=""
+                  class="w-6 h-6"
+                />
+                2108 N ST STE N SACRAMENTO, CA 95816
+              </p>
+            </div>
+          </div>
+          <div
+            class="col d-flex flex-column rounded rounded-lg form-container p-3"
+          >
+            <p class="form-heading">Get in Touch With Us!</p>
+            <form class="row g-1">
+              <div class="col-md-6 p-2">
+                <input
+                  type="text"
+                  class="form-control common-input-field"
+                  id="fname"
+                  placeholder="First Name"
+                />
+              </div>
+              <div class="col-md-6 p-2">
+                <input
+                  type="text"
+                  class="form-control common-input-field"
+                  id="lname"
+                  placeholder="Last Name"
+                />
+              </div>
+              <div class="col-md-6 p-2">
+                <input
+                  type="text"
+                  class="form-control common-input-field"
+                  id="email"
+                  placeholder="Email Address"
+                />
+              </div>
+              <div class="col-md-6 p-2">
+                <input
+                  type="text"
+                  class="form-control common-input-field"
+                  id="phone"
+                  placeholder="Phone"
+                />
+              </div>
+              <div class="col-12 p-2">
+                <select id="hear_from" class="form-select common-input-field">
+                  <option selected>How did you hear about us?</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="col-12 p-2">
+                <textarea
+                  class="form-control common-input-field"
+                  rows="8"
+                  placeholder="Message"
+                  id="message"
+                ></textarea>
+              </div>
+              <div
+                class="d-flex justify-content-end"
+                style="padding: 10px 8px 0px 0px"
+              >
+                <button class="about-btn text-white fw-bolder">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- gallery section -->
+
+      <div class="gallery_section">
+        <div class="row">
+          <div class="col">
+            <img src="assets/images/memory1.png" alt="" class="w-100 h-6" />
+          </div>
+          <div class="col">
+            <img src="assets/images/memory2.png" alt="" class="w-100 h-6" />
+          </div>
+          <div class="col">
+            <img src="assets/images/memory3.png" alt="" class="w-100 h-6" />
+          </div>
+          <div class="col">
+            <img src="assets/images/memory4.png" alt="" class="w-100 h-6" />
+          </div>
+          <div class="col">
+            <img src="assets/images/memory5.png" alt="" class="w-100 h-6" />
+          </div>
+          <div class="col">
+            <img src="assets/images/memory6.png" alt="" class="w-100 h-6" />
+          </div>
+        </div>
+
+        <div class="absolute-icon">
+          <img src="assets/icons/instagram_black.svg" alt="" class="bg-icon" />
+        </div>
+      </div>
+
+      <!-- footer section -->
+      <div class="footer">
+        <div class="container d-flex flex-column">
+          <div
+            class="row d-flex gap-5 justify-content-between align-items-start"
+            style="padding: 60px 0px 30px 0px"
+          >
+            <div class="col d-flex flex-column gap-3">
+              <img
+                src="assets/images/footer-logo.svg"
+                alt=""
+                class=""
+                style="width: 188px; height: 30px"
+              />
+              <p class="text-white" style="font-size: 12px">
+                Agile District is a leading software house that specializes in
+                providing customized solutions for businesses seeking to drive
+                digital transformation. With its innovative approach and focus
+                on engineering excellence,
+              </p>
+            </div>
+
+            <div class="col d-flex flex-column gap-3">
+              <p class="text-white fw-bolder">Expertise</p>
+              <div class="d-flex flex-column gap-2">
+                <p class="" style="color: #c5c5c5">IOT</p>
+                <p class="" style="color: #c5c5c5">DevOps</p>
+                <p class="" style="color: #c5c5c5">Cloud</p>
+                <p class="" style="color: #c5c5c5">UI/UX Design</p>
+                <p class="" style="color: #c5c5c5">Blockchain</p>
+                <p class="" style="color: #c5c5c5">Web Development</p>
+              </div>
+            </div>
+
+            <div class="col d-flex flex-column gap-3">
+              <p class="text-white fw-bolder">Industries</p>
+              <div class="d-flex flex-column gap-2">
+                <p class="" style="color: #c5c5c5">Health Care</p>
+                <p class="" style="color: #c5c5c5">Fintech</p>
+                <p class="" style="color: #c5c5c5">Retail</p>
+                <p class="" style="color: #c5c5c5">Real Estate</p>
+                <p class="" style="color: #c5c5c5">Insurance</p>
+                <p class="" style="color: #c5c5c5">E-Learning</p>
+              </div>
+            </div>
+
+            <div class="col d-flex flex-column gap-3">
+              <p class="text-white fw-bolder">Address</p>
+              <div class="d-flex flex-column gap-3">
+                <div class="d-flex flex-column gap-2">
+                  <div class="d-flex gap-2 align-items-start">
+                    <img
+                      src="assets/icons/location-white.svg"
+                      alt=""
+                      class="pt-1"
+                    />
+                    <p class="" style="color: #c5c5c5">
+                      2108 N ST STE N SACRAMENTO, CA 95816
+                    </p>
+                  </div>
+                  <div class="d-flex gap-2 align-items-start">
+                    <img
+                      src="assets/icons/phone-white.svg"
+                      alt=""
+                      class="pt-1"
+                    />
+                    <p class="" style="color: #c5c5c5">+1 (518) 677-6679</p>
+                  </div>
+                </div>
+
+                <div class="d-flex flex-column gap-2">
+                  <div class="d-flex gap-2 align-items-start">
+                    <img
+                      src="assets/icons/location-white.svg"
+                      alt=""
+                      class="pt-1"
+                    />
+                    <p class="" style="color: #c5c5c5">
+                      245 CCA FF Block, DHA Phase 4. Lahore 5400
+                    </p>
+                  </div>
+                  <div class="d-flex gap-2 align-items-start">
+                    <img
+                      src="assets/icons/phone-white.svg"
+                      alt=""
+                      class="pt-1"
+                    />
+                    <p class="" style="color: #c5c5c5">042-32177961</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col d-flex flex-column gap-3">
+              <p class="text-white fw-bolder">Subscribe</p>
+              <div class="input-group mb-3">
+                <input
+                  type="text"
+                  class="form-control input-group-lg"
+                  placeholder="Email address"
+                  aria-label="Recipient's username"
+                  aria-describedby="basic-addon2"
+                />
+                <span
+                  class="input-group-text"
+                  id="basic-addon2"
+                  style="background-color: #f9a11b"
+                >
+                  <img
+                    src="assets/icons/arrow-right.svg"
+                    alt=""
+                    class=""
+                    style="height: 16px; width: 13px"
+                  />
+                </span>
+              </div>
+
+              <div class="d-flex flex-column gap-3">
+                <p class="text-white fw-bolder">Get in Touch</p>
+                <div class="d-flex gap-3">
+                  <div class="image-circle">
+                    <img
+                      src="assets/icons/facebook_black.svg"
+                      alt=""
+                      class=""
+                      style="height: 16px; width: 16px"
+                    />
+                  </div>
+                  <div class="image-circle">
+                    <img
+                      src="assets/icons/instagram_black.svg"
+                      alt=""
+                      class="image-circle"
+                      style="height: 16px; width: 16px"
+                    />
+                  </div>
+                  <div class="image-circle">
+                    <img
+                      src="assets/icons/youtube_black.svg"
+                      alt=""
+                      class="image-circle"
+                      style="height: 16px; width: 16px"
+                    />
+                  </div>
+                  <div class="image-circle">
+                    <img
+                      src="assets/icons/xbox_black.svg"
+                      alt=""
+                      class="image-circle"
+                      style="height: 16px; width: 16px"
+                    />
+                  </div>
+                  <div class="image-circle">
+                    <img
+                      src="assets/icons/linkedin_black.svg"
+                      alt=""
+                      class="image-circle"
+                      style="height: 16px; width: 16px"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="custom-footer-divider" />
+          <div
+            class="d-flex justify-content-center"
+            style="padding: 30px 0px 40px 0px"
+          >
+            <p class="text-white">
+              All rights reserved ® agiledistrict.com | Terms and conditions
+              apply!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- script tags -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+     -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
